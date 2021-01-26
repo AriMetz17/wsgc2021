@@ -1,0 +1,60 @@
+/*
+	The Waldorf School of Garden City
+	Web Design Elective Website
+	Created by: Mrs. Ariana Metzler
+	metzler-nav.css
+/*
+
+/* NAVIGATION */
+
+.menu div {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+    
+}
+
+.menu ul {
+    list-style-type: none;
+    margin-top:0px;
+    padding: 10px 0px 10px 0px; /* Padding: top, right, bottom, left. */
+    overflow: hidden;
+    background-color: #ffeead;
+    position: fixed;
+    top: 0px;
+    width:60%;
+    border-bottom: 10px solid #ffcc5c;
+}
+
+.menu li {
+	float: left;
+	font-size: 20px;
+	margin: 0px;
+    margin-right: 10px;
+    background-color: #96ceb4;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+/* Change the link color to on hover */
+.menu li a:hover {
+	background-color: #ff6f69;
+	padding: 14px 16px;
+}
+
+/* Change the color of the link background for the "active" tab */
+.menu #active {
+	background-color: #ff6f69;
+	color: white;
+    border-radius: 10px;
+}

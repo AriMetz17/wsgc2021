@@ -1,0 +1,61 @@
+/* 
+### My Color Palette ###
+    Mint: #96ceb4
+    Yellow: #ffeead
+    Gold: #ffcc5c
+    Coral: #ff6f69
+*/
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffeead;
+    padding-top: 95px;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: white;
+    background-color:#96ceb4;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Satisfy', cursive;    
+}
+
+
+img {
+    width:300px;
+}
+
+div p {
+    clear:both;
+}
+
+.center {
+  margin: auto;
+  width: 60%;
+}
+
+.emphasize {
+    background-color:#ff6f69;
+    padding:15px;
+    border-radius: 10px;
+}
+
+.card div {
+    margin-top: 20px;
+    clear:both;
+    margin-bottom: 20px;
+}
+
+#picright{
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#picleft {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
