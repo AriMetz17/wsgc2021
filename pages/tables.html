@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>Mrs. Metzler's About Me</title>
+        <link rel="stylesheet" href="../css/metzler-style.css"/>
+        <link rel="stylesheet" href="../css/metzler-nav.css"/>
+        <div class="menu">
+			<ul>
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="aboutme.html">About Me</a></li>
+                <li><a href="lists.html">Lists</a></li>
+                <li><a id="active" href="tables.html">Tables</a></li>
+			</ul>
+        </div>
+        <style>
+            table {
+                    width: 100%;
+                    border-radius: 10px;
+                }
+
+            th, td, tr {
+                    text-align: left;
+                    padding: 10px;
+                    border-radius: 10px;
+                    border: 3px solid #ffe37a;
+                }
+
+            tr:nth-child(even){
+                    background-color: #fff9e0;
+                }
+
+            tr:nth-child(odd){
+                    background-color: #fff3c7;
+                }
+
+            th {
+                    background-color: #ff6f69;
+                    color: white;
+                }
+            
+            tr:hover {
+                    background-color: #ffcc5c;
+                }
+        </style>
+    </head>
+    <body class="center">
+        <h1>Favorite Fictional People</h1>
+        <table>
+            <tr>
+                <th>Rank</th>
+                <th>Character</th>
+                <th>World</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Prof. McGonagle</td>
+                <td>Hogwarts</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Han Solo</td>
+                <td>A Galaxy Far, Far Away</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Gandalf</td>
+                <td>Middle Earth</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Captain America</td>
+                <td>Brooklyn</td>
+            </tr>
+        </table>
+    </body>
+</html>
